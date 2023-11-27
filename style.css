@@ -1,0 +1,138 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.logo {
+    color: rgb(255, 136, 0);
+    padding-right: 66%;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 28px;
+    padding-left: 30px;
+}
+
+.logo:hover {
+    color: rgb(255, 0, 119);
+}
+
+header {
+    background-color: #333;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(255, 136, 0);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: cursive;
+}
+
+nav a:hover {
+    color: rgb(255, 0, 119);
+}
+
+.section1 {
+    background-color: black;
+    display: flex;
+    color: white;
+    width: 207vh;
+}
+
+.categories {
+    margin-left: 30px;
+    font-family: cursive;
+}
+
+.kidsimage {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 50;
+    padding-top: 200px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+p {
+    margin-right: 20px;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 136, 0);
+    font-weight: bolder;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 12px;
+    background-color: #dee2e6;
+}
+
+h2 {
+    text-align: left;
+    margin-top: 40px;
+    padding-left: 45px;
+    color: orange;
+}
+
+.div img {
+    margin: 30px;
+}
+
+p {
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.featured {
+    color: black;
+    display: flex;
+    padding-left: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: rgba(0, 0, 0, 05);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+}
+
+f li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: sold gray 3px;
+    padding: 10px;
+    margin: 10px 0px 0px 40px;
+    transition: s.3;
+}
+
+button:hover {
+    color: #333;
+}
